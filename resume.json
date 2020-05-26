@@ -169,7 +169,8 @@
                    "Chef",
 		   "Git",
 		   "Jenkins",
-		   "Ansible"
+		   "Ansible",
+		   "salt"
                  ]
     },
     {
