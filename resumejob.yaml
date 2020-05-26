@@ -9,7 +9,7 @@ spec:
   template:
      spec:
        containers:
-       - image: resumecliimage:latest
+       - image: jasvinder1107/resumecliimage:latest
          imagePullPolicy: IfNotPresent
          name: resumepod
          command: ["/tmp/start.sh"]
