@@ -1,0 +1,31 @@
+node {
+    stage("Git pull"){
+        
+       git credentialsId: 'GITHUB_CREDS', url: 'https://github.com/jasvinder1107/resume-pipeline'
+    }
+    stage("Docker build image"){
+        sh "docker build -t jasvinder1107/resumecliimage ."
+        
+    }
+    stage("Docker push images"){
+        withCredentials([string(credentialsId: 'DOCKER_CREDS', variable: 'DOCKER_CREDS')]) {
+          sh "docker login -u jasvinder1107 -p ${DOCKER_CREDS}"
+          sh "docker push jasvinder1107/resumecliimage "
+      }
+        
+    }
+    stage("Build resume"){
+    
+    sshPublisher(publishers: [sshPublisherDesc(configName: 'K8MASTER', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: 'sudo kubectl create -f resumejob.yaml --kubeconfig=/etc/kubernetes/admin.conf', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '', remoteDirectorySDF: false, removePrefix: '', sourceFiles: 'resumejob.yaml')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+    }
+    stage("Waiting for the job to finish"){
+        echo "Sleeping for 90 seconds"
+        sleep 90
+    }
+    stage("Verify resume build"){
+     
+     sshPublisher(publishers: [sshPublisherDesc(configName: 'K8MASTER', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: 'sudo kubectl get pods -A --kubeconfig=/etc/kubernetes/admin.conf', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+     sshPublisher(publishers: [sshPublisherDesc(configName: 'K8MASTER', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: 'sudo ls -larth /root/resume-result/resume.html', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+     sshPublisher(publishers: [sshPublisherDesc(configName: 'K8MASTER', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: 'sudo kubectl delete -f  resumejob.yaml --kubeconfig=/etc/kubernetes/admin.conf', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+    }
+}
