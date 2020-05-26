@@ -10,7 +10,7 @@ spec:
      spec:
        containers:
        - image: jasvinder1107/resumecliimage:latest
-         imagePullPolicy: IfNotPresent
+         imagePullPolicy: Always
          name: resumepod
          command: ["/tmp/start.sh"]
          volumeMounts:
