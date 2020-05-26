@@ -1,0 +1,25 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  creationTimestamp: null
+  labels:
+    run: resumepod
+  name: resumepod
+spec:
+  template:
+     spec:
+       containers:
+       - image: resumecliimage:latest
+         imagePullPolicy: IfNotPresent
+         name: resumepod
+         command: ["/tmp/start.sh"]
+         volumeMounts:
+         - mountPath: /resultpath
+           name: result-vol
+       restartPolicy: Never
+       volumes:
+       - name: result-vol
+         hostPath:
+           path: /root/resume-result
+           type: Directory
+status: {}

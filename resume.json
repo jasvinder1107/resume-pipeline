@@ -1,0 +1,243 @@
+{
+  "basics": {
+    "name": "Jasvinder Singh Kwatra",
+    "label": "Sr Cloud Operations Engineer,Tier-4",
+    "email": "jasvinder.kwatra@gmail.com",
+    "phone": "+17708619181",
+    "website": "https://www.linkedin.com/in/jasvinder-singh-kwatra-441804149/",
+    "summary": "I have ten years of experience in the design and implementation of solutions with multiple industry-leading open source technologies. I seek to utilize my skill set at a challenging new position, designing and developing a robust and secure virtualization solution, built to satisfy market needs.",
+    "location": {
+      "address": "",
+      "postalCode": "78702",
+      "city": "Austin",
+      "countryCode": "USA",
+      "state": "Texas"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "company": "Mirantis",
+      "position": "Tier4 support Kubernetes/Openstack",
+      "website": "",
+      "startDate": "2018-03-01",
+      "summary": "During my stint at Mirantis, I provided the highest tier of support and design consultation for a highly complex and continuously changing environment while utilizing the DevOps methodology. I have a drive for learning and creating new things that have enabled me to thrive in this challenging atmosphere. I am passionate about providing a customer experience that exceeds all expectations.",
+      "highlights": [
+	              
+                 "Restored an entire zone of 300 computes by creating a disaster recovery plan and executing it within 11 hours",
+                 "Developed and provided an ops fix for an Openstack Nova-Compute bug, which had a widespread effect upon multiple production environments and multiple high profile clients, resulting in a loss of interconnection between all Openstack services. This fix saved the company many person-hours by ending a two year effort to find a solution and greatly improved the relationship with the client.",
+                 "Recovered ceph cluster from pg corruption, avoiding any customer data loss.",
+                 "Provided design feedback resulting in the overall stability of the Kubernetes, OpenStack, and non-OpenStack components of Airship, thus drastically increasing the success of the rate of deployments.",
+                 "Resolved a long-standing OOM issue affecting all nodes across multiple data centers, identifying the root cause to be a design flaw in the tuning of Numa memory and Hugepage settings.",
+                 "Provided proof of concepts for multiple system architecture solutions and took part in design discussions as well as defect resolutions.",
+                 "Created disaster recovery procedures for various infrastructure components and wrote KBs for best practices.",
+                 "Responsible for managing AT&T Integrated Cloud and Network cloud with 25K production and non-production bare-metal servers configured with both Openvswitch and Juniper Contrail."
+                     ]
+    },
+    {
+      "company": "Tech Mahindra Americas Inc",
+      "position": "Associate Technical Architect",
+      "website": "",
+      "startDate": "2016-09-01",
+      "summary": "I was promoted to Technical Architect over AT&T's business service APIs leading 25 people and while in this position, I was awarded the 'ACE award 2017' for the second time and the 'Pat on the Back Award' in Q1 2018 for outstanding customer support.",
+      "highlights": [
+	             "Provided Proof of concepts utilizing Kubernetes/OpenStack technologies.",
+                     "Solved high priority issue, which had caused numerous outages in the past six months with JVM memory leak and Postgress.",
+                     "Provided RBAC use cases and converted non-SSL Kubernetes cluster to SSL only Kubernetes cluster manually and with Kubeadm and kubespray tools.",
+                     "Created and updated Chef Cookbooks for infrastructure automation.",
+                     "Created wrapper in the python to query 4000 servers, help reduce the troubleshooting time." 
+                    ],
+      "endDate": "2018-03-01"
+    },
+    {
+      "company": "Tech Mahindra Americas Inc",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "2015-11-01",
+      "summary": "I was transferred to the USA and assigned as lead over AT&T's business service APIs. I was awarded the 'ACE award 2016' for being a top performer and having numerous client appreciation.",
+      "highlights": [ 
+	             "Overcame budgetary limitations by migrating the Apigee platform and all associated APIs from tlsv1.0 to tlsv1.2, effectively sidestepping a lack of vendor support.",
+                     "Developed a plan to complete a challenging migration of 51 zones to a newer version of Openstack, which was previously determined to be impossible by the reporting development team.",
+                     "Executed critical migration of thirty-six Cassandra nodes while maintaining twenty-four operational nodes with zero downtime.",
+                     "Created and updated Ceph Cookbooks for infrastructure automation.",
+                     "Troubleshoot issues of memory leaks in JVM, Kernel, and APIs."
+              ],
+      "endDate": "2016-09-01"
+    },
+    {
+      "company": "Tech Mahindra Ltd",
+      "position": "Senior Software Engineer",
+      "website": "",
+      "startDate": "2014-03-01",
+      "summary": "I worked for AT&T business service APIs. I have designed and built 51 environments of the AT&T API platform within three months of joining the project and received the Pat on the back award in the Q3 of 2014.",
+      "highlights": [
+	            "Built new environments using neutron and Openstack.",
+                    "Installed Apigee Edge cloud edition for exposing client APIs.",
+                    "Configured Docker Containers for Jenkins and Gitlabs.",
+                    "Configured Zookeeper and Cassandra nodes."
+                   ],
+      "endDate": "2015-11-01"
+    },
+    {
+      "company": "Ericsson",
+      "position": "Engineer",
+      "website": "",
+      "startDate": "2010-12-01",
+      "summary": "I took charge of managing Ericsson datacenters across India, where I designed and implemented an automated system that efficiently backed up critical file systems and saved 1000 person-hours per project for which I was presented the 'Best Idea Award' in Q1 2013.",
+      "highlights": [
+                      "Developed preventive maintenance scripts for health checks on servers.",
+                      "Proactively audited the network performance and identified issues with auto-negotiation, drastically reducing the number of outages due to performance issues."
+
+                 ],
+	      
+      "endDate": "2014-03-01"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Guru Gobind Singh Indraprastha University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Technology - B-Tech",
+      "startDate": "2006-07-01",
+      "gpa": "",
+      "courses": [""],
+      "endDate": "2010-06-30"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Virtualizaion",
+      "level": "Master",
+      "keywords": [
+	           "kubernetes",
+	           "Openstack",
+		   "AWS",
+		   "Airship",
+		   "Openstack helm",
+		   "Docker",
+		   "Containerd",
+		   "Cri",
+		   "Coreos",
+		   "Libvirt",
+		   "Qemu"
+                  ]
+    },
+    {
+      "name": "Operating Systems",
+      "level": "Master",
+      "keywords": [
+	           "Ubuntu",
+	           "RHEL",
+		   "Centos",
+		   "Fedora",
+		   "Solaris"
+                  ]
+    },
+    {
+      "name": "Coding Languages",
+      "level": "Master",
+      "keywords": [
+	           "Python",
+		   "C",
+		   "Go"
+                   ]
+    },
+    {
+      "name": "Databases",
+      "level": "Master",
+      "keywords": ["Cassandra",
+                   "Mongo",
+                   "Postgres"
+                   ]
+    },
+    {
+      "name": "WebServices & protocols",
+      "level": "Master",
+      "keywords": [
+	          "REST",
+                  "Oauth",
+		  "JWT",
+		  "SSL",
+		  "Postman"
+                  ]
+    },
+    {
+      "name": "Configuration Management and versioning tools",
+      "level": "Master",
+      "keywords": [
+	           "Puppet",
+                   "Chef",
+		   "Git",
+		   "Jenkins",
+		   "Ansible"
+                 ]
+    },
+    {
+      "name": "Cluster Managers",
+      "level": "Master",
+      "keywords": [
+	          "Etcd",
+                  "Zookeeper"
+                  ]
+    },
+    {
+    "name": "Networking & Tools ",
+    "level": "Master",
+    "keywords": [
+                  "DHCP,",
+                  "DNS,",
+                  "TCP/IP,",
+                  "VLAN,",
+                  "LACP,",
+                  "Nginx,",
+                  "Iptables,",
+                  "OpenVPN",
+		  "Wireshark",
+		  "Calico",
+		  "Flannel",
+		  "Juniper Contrail",
+		  "OpenVswitch",
+		  "Linux Bridges",
+		  "DPDK",
+		  "SRIOV"
+                ]
+    },
+    {
+      "name": "Load Balancing",
+      "level": "Master",
+      "keywords": [
+	           "Haproxy",
+                   "Nginx"
+                  ]
+    },
+    
+    {
+      "name": "Kernel debugging",
+      "level": "Master",
+      "keywords": [
+	           "Strace",
+                   "Gdb"
+                  ]
+    },
+    {
+      "name": "Storage",
+      "level": "Master",
+      "keywords": [
+	           "Ceph"
+                  ]
+    },
+    {
+      "name": "Amqp Clients",
+      "level": "Master",
+      "keywords": [
+	           "Rabbitmq",
+		   "Redhat Messaging",
+		   "Apache Qpid"
+                  ]
+    }
+
+
+
+  ]
+
+}
