@@ -3,15 +3,15 @@ kind: Job
 metadata:
   creationTimestamp: null
   labels:
-    run: resumepod
-  name: resumepod
+    run: resumejob
+  name: resumejob
 spec:
   template:
      spec:
        containers:
        - image: jasvinder1107/resumecliimage:latest
          imagePullPolicy: Always
-         name: resumepod
+         name: resumejob
          command: ["/tmp/start.sh"]
          volumeMounts:
          - mountPath: /resultpath
