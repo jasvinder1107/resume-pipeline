@@ -46,7 +46,7 @@
 		     "Solved a high priority issue associated with JVM memory leaks and PostgreSQL, which caused numerous outages over six months period.",
 		     "Provided RBAC use cases and manually converted non-SSL Kubernetes clusters to SSL with Kubeadm and Kubespray tools.",
                      "Created and updated Chef Cookbooks for infrastructure automation.",
-		     "Created wrapper in the python to query 4000 servers, it helped in reduction of the meantime to restore."
+		     "Created wrapper in the python to query 4000 servers, which helped reduce the mean time to restore."
                     ],
       "endDate": "2018-03-01"
     },
