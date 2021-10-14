@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Jasvinder Singh Kwatra",
-    "label": "Sr Cloud Operations Engineer,Tier-4",
+    "label": "Cloud Architect",
     "email": "jasvinder.kwatra@gmail.com",
     "phone": "+17708619182",
     "website": "https://www.linkedin.com/in/jasvinder-singh-kwatra-441804149/",
@@ -18,7 +18,7 @@
   "work": [
     {
       "company": "Mirantis",
-      "position": "Tier4 support Kubernetes/OpenStack",
+      "position": "Cloud Architect Kubernetes/OpenStack",
       "website": "",
       "startDate": "2018-03-01",
       "summary": "I am currently providing the highest-tier support and design consultation for a highly complex and continuously changing environment while utilizing DevOps methodology. My drive for learning and creating new things has enabled me to thrive in this challenging atmosphere.",
