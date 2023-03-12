@@ -3,9 +3,9 @@
     "name": "Jasvinder Singh Kwatra",
     "label": "Cloud Architect",
     "email": "jasvinder.kwatra@gmail.com",
-    "phone": "+17708619182",
+    "phone": "+17708619181",
     "website": "https://www.linkedin.com/in/jasvinder-singh-kwatra-441804149/",
-    "summary": "I have thirteen years of experience designing and implementing solutions with multiple industry-leading open source technologies. I am seeking a challenging new position where I can utilize my skill set to design and develop a robust and secure virtualization solution to satisfy market needs.",
+    "summary": "Over thirteen years of experience designing and implementing solutions with multiple industry leading open source technologies. Seeking a challenging new position that utilize my skill set in designing and developing a robust secure virtualization solution.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -21,20 +21,20 @@
       "position": "Cloud Architect Kubernetes/OpenStack",
       "website": "",
       "startDate": "2018-03-01",
-      "summary": "I am currently providing the design consultation for a highly complex and continuously changing environment while utilizing DevOps methodology. My drive for learning and creating new things has enabled me to thrive in this challenging atmosphere.",
+      "summary": "Providing design consultation for a highly complex and continuously changing environment while utilizing DevOps methodology. My drive for learning and creating new things has enabled me to thrive in this challenging atmosphere.",
       "highlights": [
 	              
-                 "Restored an entire zone of 300 OpenStack computes by creating a disaster recovery plan and executing it within 11 hours. The impacted workloads were of mission-critical FirstNet.  I got accolades from C-level executives.",
-                 "Created design layouts for various OpenStack and Kubernetes clouds for multiple customers. The customers successfully deployed SRIOV and DPDK NFVs on Mellanox and Intel.",
-                 "Created and deployed HELM charts to monitor MariaDB for non-Primary state and recover it to the Primary state.",
-                 "Developed and provided a patch for an OpenStack nova-compute bug that causes a loss of connectivity between all OpenStack services. This bug had a widespread effect on multiple production environments and numerous high profile clients. This patch saved the company many person-hours by ending a two-year effort to find a solution and greatly improved the relationship with the client.",
-                 "Recovered ceph cluster from pg corruption, avoiding customer data loss for a high-profile client with the large ceph deployment. I received multiple accolades from the customer as a result.",
-		             "Provided design feedback resulting in the overall stability of the Kubernetes, OpenStack, and non-OpenStack components of Airship. This feedback drastically increased the success of the rate of deployments.",
+                 "Restored an entire zone of 300 OpenStack computes by creating a disaster recovery plan and executing it within 11 hours. Impacted workloads were of mission-critical FirstNet and received accolades from C-level executives.",
+                 "Initiated design layouts for various OpenStack, Kubernetes clouds for multiple customers helping successful deployment of SRIOV and DPDK NFVs on Mellanox and Intel.",
+                 "Created and deployed HELM charts to monitor MariaDB for non-Primary state and recover it to Primary state.",
+                 "Developed a patch for an OpenStack nova-compute bug resulting in saving 240 man hours for company. Bug had loss of connectivity between all OpenStack services with a widespread impact on multiple production environments for numerous high profile clients and this patch resulted in improved relationship with client.",
+                 "Recovered ceph cluster from pg corruption, avoiding customer data loss for a high-profile client with large ceph deployment. Received multiple accolades from customer as a result.",
+		             "Administered design feedback resulting in overall stability of Kubernetes, OpenStack, and non-OpenStack components of Airship resulting in drastic increased success rate of deployments.",
                  "Resolved a long-standing OOM issue affecting all nodes across multiple data centers. Identified the root cause to be a design flaw in the tuning of Numa memory and Hugepage settings.",
-                 "Fixed issues with Intel and Mellanox SRIOV host and client drivers in the NFVs. Also was responsible for finding the RCA and patching the qemu vhost drivers with DPDK.",
-                 "Provided proof of concepts for multiple system architecture solutions, directly lowering the cost for the customer and adapting resilient solutions..",
-		             "Took part in design discussions, defect resolutions, and testing to reduce the number of defects per release cycle from 50% to 4 %  per release.",
-                 "Created disaster recovery procedures for various infrastructure components and wrote KBs for best practices.",
+                 "Fixed issues with Intel and Mellanox SRIOV host and client drivers in NFVs. Also, was responsible for finding the RCA and patching qemu vhost driver with DPDK.",
+                 "Provided proof of concepts for multiple system architecture solutions, directly lowering cost for customers and adapting resilient solutions.",
+		             "Involved in design discussions, defect resolutions, and testing to reduce number of defects per release cycle from 50% to 4% per release.",
+                 "Established disaster recovery procedures for various infrastructure components and wrote KBs for best practices.",
                  "Designed AT&T Integrated Cloud and Network cloud with 30K production and non-production bare-metal servers configured with both Open vSwitch and Juniper Contrail."
                  ]
     },
@@ -43,13 +43,13 @@
       "position": "Associate Technical Architect",
       "website": "",
       "startDate": "2016-09-01",
-      "summary": "I was promoted to Technical Architect over AT&T's business service APIs. While in this position, I led a team of 25 people. I was awarded the 'ACE award 2017' for the second time and the 'Pat on the Back Award' in Q1 2018 for outstanding customer support.",
+      "summary": "Promoted to Technical Architect over AT&T's business service APIs and led a team of 25 people. Awarded 'ACE award 2017' for 2nd time and 'Pat on Back' in Q1 2018 for outstanding customer support.",
       "highlights": [
 	             "Provided proof of concepts utilizing Kubernetes/OpenStack technologies.",
-		     "Solved a high priority issue associated with JVM memory leaks and PostgreSQL, which caused numerous outages over six months period.",
-		     "Provided RBAC use cases and manually converted non-SSL Kubernetes clusters to SSL with Kubeadm and Kubespray tools.",
-                     "Created and updated Chef Cookbooks for infrastructure automation.",
-		     "Created wrapper in the python to query 4000 servers, which helped reduce the mean time to restore."
+		           "Solved high priority issues associated with JVM memory leaks and PostgreSQL, causing numerous outages over 6 month period.",
+		           "Provided RBAC use cases and manually converted non-SSL Kubernetes clusters to SSL with Kubeadm and Kubespray tools.",
+               "Created and updated Chef Cookbooks for infrastructure automation.",
+		           "Created wrapper in python to query 4000 servers, helping reduce mean time to restore."
                     ],
       "endDate": "2018-03-01"
     },
@@ -58,13 +58,13 @@
       "position": "Senior Software Engineer",
       "website": "",
       "startDate": "2015-11-01",
-      "summary": "I was transferred to the USA and assigned as a lead over AT&T's business service APIs. I was awarded the 'ACE award 2016' for being a top performer and for receiving numerous positive client reviews.",
+      "summary": "Transferred to United States and assigned as a lead over AT&T's business service APIs. Awarded 'ACE award 2016' for being a top performer and received numerous positive client reviews.",
       "highlights": [ 
-	             "Overcame budgetary limitations by migrating the Apigee platform and all associated APIs from tlsv1.0 to tlsv1.2 - effectively sidestepping a lack of vendor support.",
-                     "Developed a plan to complete a challenging migration of 51 zones to a newer version of OpenStack. This task was previously determined to be impossible by the reporting development team.",
+	                   "Overcame budgetary limitations by migrating Apigee platform and all associated APIs from tlsv1.0 to tlsv1.2 - effectively sidestepping a lack of vendor support.",
+                     "Developed a plan to complete a challenging migration of 51 zones to a newer version of OpenStack, previously determined to be impossible by the reporting development team.",
                      "Executed critical migration of 36 Cassandra nodes while maintaining 24 operational nodes with zero downtime.",
                      "Created and updated Chef Cookbooks for infrastructure automation.",
-                     "Troubleshoot issues with memory leaks in JVM, Kernel, and APIs."
+                     "Troubleshooted issues with memory leaks in JVM, Kernel, and APIs."
               ],
       "endDate": "2016-09-01"
     },
@@ -73,9 +73,9 @@
       "position": "Senior Software Engineer",
       "website": "",
       "startDate": "2014-03-01",
-      "summary": "I worked for AT&T business service APIs. I have designed and built 51 environments of the AT&T API platform within three months of joining the project. Alongside received the Pat on the back award in the Q3 of 2014.",
+      "summary": "Worked for AT&T business service APIs. Designed and built 51 environments of AT&T API platform within 3 months of joining project. Received 'Pat on back' award in Q3 2014.",
       "highlights": [
-	            "Built new environments using neutron and OpenStack.",
+	                  "Built new environments using neutron and OpenStack.",
                     "Installed Apigee Edge cloud edition for exposing client APIs.",
                     "Configured Docker Containers for Jenkins and Gitlabs.",
                     "Configured Zookeeper and Cassandra nodes."
@@ -87,10 +87,10 @@
       "position": "Engineer",
       "website": "",
       "startDate": "2010-12-01",
-      "summary": "I took charge of managing Ericsson datacenters across India. I designed and implemented an automated system that efficiently backed up critical file systems saving thousands of person-hours per project. This solution resulted in me receiving the 'Best Idea Award' in Q1 2013.",
+      "summary": "Managed Ericsson datacenters across India. Designed and implemented an automated system efficiently backing up critical file systems saving 100k man-hours per project. Received 'Best Idea Award' in Q1 2013.",
       "highlights": [
                       "Developed preventive maintenance scripts for health checks on servers.",
-                      "Proactively audited the network performance and identified issues with auto-negotiation, drastically reducing the number of outages due to performance issues."
+                      "Proactively audited network performance and identified issues with auto-negotiation, drastically reducing number of outages."
 
                  ],
 	      
