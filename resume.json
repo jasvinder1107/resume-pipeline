@@ -5,7 +5,7 @@
     "email": "jasvinder.kwatra@gmail.com",
     "phone": "+17708619182",
     "website": "https://www.linkedin.com/in/jasvinder-singh-kwatra-441804149/",
-    "summary": "I have ten years of experience designing and implementing solutions with multiple industry-leading open source technologies. I am seeking a challenging new position where I can utilize my skill set to design and develop a robust and secure virtualization solution to satisfy market needs.",
+    "summary": "I have thirteen years of experience designing and implementing solutions with multiple industry-leading open source technologies. I am seeking a challenging new position where I can utilize my skill set to design and develop a robust and secure virtualization solution to satisfy market needs.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -21,19 +21,22 @@
       "position": "Cloud Architect Kubernetes/OpenStack",
       "website": "",
       "startDate": "2018-03-01",
-      "summary": "I am currently providing the highest-tier support and design consultation for a highly complex and continuously changing environment while utilizing DevOps methodology. My drive for learning and creating new things has enabled me to thrive in this challenging atmosphere.",
+      "summary": "I am currently providing the design consultation for a highly complex and continuously changing environment while utilizing DevOps methodology. My drive for learning and creating new things has enabled me to thrive in this challenging atmosphere.",
       "highlights": [
 	              
-                 "Restored an entire zone of 300 computes by creating a disaster recovery plan and executing it within 11 hours",
+                 "Restored an entire zone of 300 OpenStack computes by creating a disaster recovery plan and executing it within 11 hours. The impacted workloads were of mission-critical FirstNet.  I got accolades from C-level executives.",
+                 "Created design layouts for various OpenStack and Kubernetes clouds for multiple customers. The customers successfully deployed SRIOV and DPDK NFVs on Mellanox and Intel.",
+                 "Created and deployed HELM charts to monitor MariaDB for non-Primary state and recover it to the Primary state.",
                  "Developed and provided a patch for an OpenStack nova-compute bug that causes a loss of connectivity between all OpenStack services. This bug had a widespread effect on multiple production environments and numerous high profile clients. This patch saved the company many person-hours by ending a two-year effort to find a solution and greatly improved the relationship with the client.",
-                 "Recovered ceph cluster from pg corruption, avoiding any customer data loss.",
-		 "Provided design feedback resulting in the overall stability of the Kubernetes, OpenStack, and non-OpenStack components of Airship. This feedback drastically increased the success of the rate of deployments.",
+                 "Recovered ceph cluster from pg corruption, avoiding customer data loss for a high-profile client with the large ceph deployment. I received multiple accolades from the customer as a result.",
+		             "Provided design feedback resulting in the overall stability of the Kubernetes, OpenStack, and non-OpenStack components of Airship. This feedback drastically increased the success of the rate of deployments.",
                  "Resolved a long-standing OOM issue affecting all nodes across multiple data centers. Identified the root cause to be a design flaw in the tuning of Numa memory and Hugepage settings.",
-                 "Provided proof of concepts for multiple system architecture solutions",
-		 "Took part in design discussions as well as defect resolutions.",
+                 "Fixed issues with Intel and Mellanox SRIOV host and client drivers in the NFVs. Also was responsible for finding the RCA and patching the qemu vhost drivers with DPDK.",
+                 "Provided proof of concepts for multiple system architecture solutions, directly lowering the cost for the customer and adapting resilient solutions..",
+		             "Took part in design discussions, defect resolutions, and testing to reduce the number of defects per release cycle from 50% to 4 %  per release.",
                  "Created disaster recovery procedures for various infrastructure components and wrote KBs for best practices.",
-                 "Responsible for managing AT&T Integrated Cloud and Network cloud with 25K production and non-production bare-metal servers configured with both Open vSwitch and Juniper Contrail."
-                     ]
+                 "Designed AT&T Integrated Cloud and Network cloud with 30K production and non-production bare-metal servers configured with both Open vSwitch and Juniper Contrail."
+                 ]
     },
     {
       "company": "Tech Mahindra Americas Inc",
@@ -107,7 +110,7 @@
   ],
   "skills": [
     {
-      "name": "Virtualizaion",
+      "name": "Virtualization",
       "level": "Master",
       "keywords": [
 	           "Kubernetes",
